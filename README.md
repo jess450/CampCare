@@ -43,21 +43,49 @@ The system is designed to support real-world camp healthcare workflows while kee
 
 ## Screenshots
 
-### Overview
+> **Demo environment:** All names, health information, medications, contact information, and clinical records shown below are synthetic demonstration data. No real camper or patient information is displayed.
 
-*Screenshot coming here.*
+### Local & Multi-Device Operation
+
+CampCare can operate independently on one device or allow authorized devices on the same network to connect to a shared host.
+
+![CampCare connection modes](screenshots/connection-modes.png)
+
+### Camp Session Management
+
+Separate camp sessions maintain independent datasets while allowing previous sessions to be retained and reopened.
+
+![CampCare session management](screenshots/session-management.png)
 
 ### Medication Administration
 
-*Screenshot coming here.*
+The Med Pass workspace organizes scheduled medications by time, date, and cabin while recording administration by staff initials.
+
+![CampCare medication administration](screenshots/med-pass.png)
 
 ### Camper Health Record
 
-*Screenshot coming here.*
+Individual camper records bring together health information, allergies, medications, administration schedules, clinical history, and documentation tools.
+
+![CampCare camper health record](screenshots/camper-record.png)
 
 ### Walk-In Documentation
 
-*Screenshot coming here.*
+CampCare supports documentation of unscheduled infirmary visits, including the reason for the visit, clinical notes, medications administered, vital signs, and follow-up requirements.
+
+![CampCare walk-in documentation](screenshots/walk-in.png)
+
+### Clinical & Medication Logs
+
+Recorded encounters and medication administrations can be organized into printable operational logs.
+
+![CampCare printable log](screenshots/print-log.png)
+
+### Audit Trail
+
+Administrative audit logging records application activity by account, clinical initials, action, and timestamp.
+
+![CampCare audit log](screenshots/audit-log.png)
 
 ## Technical Design
 
