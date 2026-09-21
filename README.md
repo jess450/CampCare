@@ -45,47 +45,61 @@ The system is designed to support real-world camp healthcare workflows while kee
 
 > **Demo environment:** All names, health information, medications, contact information, and clinical records shown below are synthetic demonstration data. No real camper or patient information is displayed.
 
+### Authentication
+
+CampCare uses account-based authentication with a username and PIN before users can access the application's health documentation workflows.
+
+![CampCare login](screenshots/login.jpg)
+
 ### Local & Multi-Device Operation
 
-CampCare can operate independently on one device or allow authorized devices on the same network to connect to a shared host.
+CampCare can operate independently on a single device or allow authorized devices on the same network to connect to a shared host.
 
-![CampCare connection modes](screenshots/connection-modes.png)
+![CampCare connection modes](screenshots/connection-modes.jpg)
 
 ### Camp Session Management
 
-Separate camp sessions maintain independent datasets while allowing previous sessions to be retained and reopened.
+CampCare supports multiple independent camp sessions, allowing new sessions to be created while previous sessions and their datasets are retained and can be reopened.
 
-![CampCare session management](screenshots/session-management.png)
+![CampCare session management](screenshots/camp-sessions.jpg)
 
 ### Medication Administration
 
 The Med Pass workspace organizes scheduled medications by time, date, and cabin while recording administration by staff initials.
 
-![CampCare medication administration](screenshots/med-pass.png)
+![CampCare medication administration](screenshots/medication-administration.jpg)
 
 ### Camper Health Record
 
-Individual camper records bring together health information, allergies, medications, administration schedules, clinical history, and documentation tools.
+Individual camper records bring together health information, allergies, medications, administration schedules, contact information, and documentation tools.
 
-![CampCare camper health record](screenshots/camper-record.png)
+![CampCare camper health record](screenshots/camper-health-record.jpg)
+
+Camper records also maintain clinical history, including previous visits and medication administrations, health history, over-the-counter medications, notes, and other health information.
+
+![CampCare camper history](screenshots/camper-history.jpg)
+
+From an individual camper record, staff can document a detailed walk-in encounter, including the presenting complaint, medications administered, dose, route, form and quantity, clinical notes, optional vital signs, and follow-up requirements.
+
+![CampCare camper-specific walk-in documentation](screenshots/camper-specific-walk-in.jpg)
 
 ### Walk-In Documentation
 
-CampCare supports documentation of unscheduled infirmary visits, including the reason for the visit, clinical notes, medications administered, vital signs, and follow-up requirements.
+The dedicated Walk-In workspace provides a quick workflow for recording unscheduled health-centre visits and viewing recent walk-ins.
 
-![CampCare walk-in documentation](screenshots/walk-in.png)
+![CampCare walk-in documentation](screenshots/walk-in-documentation.jpg)
 
 ### Clinical & Medication Logs
 
-Recorded encounters and medication administrations can be organized into printable operational logs.
+Recorded encounters and medication administrations can be organized into printable operational logs by date and cabin.
 
-![CampCare printable log](screenshots/print-log.png)
+![CampCare printable log](screenshots/printable-log.jpg)
 
 ### Audit Trail
 
 Administrative audit logging records application activity by account, clinical initials, action, and timestamp.
 
-![CampCare audit log](screenshots/audit-log.png)
+![CampCare audit log](screenshots/audit-log.jpg)
 
 ## Technical Design
 
